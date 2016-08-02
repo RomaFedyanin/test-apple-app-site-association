@@ -1,0 +1,15 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "7VKZYG8P42.by.tut.jobs.employee",
+        "paths": [
+          "/search/vacancy*",
+          "/vacancy/*",
+          "/employer/*"
+        ]
+      }
+    ]
+  }
+}
