@@ -3,11 +3,79 @@
     "apps": [],
     "details": [
       {
+        "appID": "7VKZYG8P42.ru.hh.iphone",
+        "paths": [
+          "/search/vacancy*",
+          "NOT /vacancies/map",
+          "/vacancies*",
+          "/vacancy/*",
+          "NOT /article/*/?*",
+          "/article/*",
+          "/applicant/resume/*",
+          "/applicant/resumes",
+          "/applicant/resumes/?*/edit/?*",
+          "NOT /applicant/resumes/*/?*",
+          "/applicant/resumes/*",
+          "/applicant/autosearch",
+          "/nearby",
+          "employer_reviews/employers",
+          "employer_reviews/mine"
+        ]
+      },
+      {
         "appID": "7VKZYG8P42.by.tut.jobs.employee",
         "paths": [
           "/search/vacancy*",
+          "NOT /vacancies/map",
+          "/vacancies*",
           "/vacancy/*",
-          "/employer/*"
+          "NOT /article/*/?*",
+          "/article/*",
+          "/applicant/resume/*",
+          "/applicant/resumes",
+          "/applicant/resumes/?*/edit/?*",
+          "NOT /applicant/resumes/*/?*",
+          "/applicant/resumes/*",
+          "/applicant/autosearch",
+          "/nearby",
+          "employer_reviews/employers",
+          "employer_reviews/mine"
+        ]
+      },
+      {
+        "appID": "7VKZYG8P42.az.day.jobs.applicant",
+        "paths": [
+          "/search/vacancy*",
+          "NOT /vacancies/map",
+          "/vacancies*",
+          "/vacancy/*",
+          "/applicant/resume/*",
+          "/applicant/resumes",
+          "/applicant/resumes/?*/edit/?*",
+          "NOT /applicant/resumes/*/?*",
+          "/applicant/resumes/*",
+          "/applicant/autosearch",
+          "/nearby",
+          "employer_reviews/employers",
+          "employer_reviews/mine"
+        ]
+      },
+      {
+        "appID": "7VKZYG8P42.ru.hh.emp",
+        "paths": [
+          "/search/resume*",
+          "/resume/*",
+          "/vacancy/*",
+          "/account/login/*"
+        ]
+      },
+      {
+        "appID": "7VKZYG8P42.by.tut.jobs.emp",
+        "paths": [
+          "/search/resume*",
+          "/resume/*",
+          "/vacancy/*",
+          "/account/login/*"
         ]
       }
     ]
